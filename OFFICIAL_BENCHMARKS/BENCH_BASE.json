@@ -1,0 +1,1693 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "NODE_RED",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\FACTORY_MANUFACTURING\\NODE_RED\\UPSTREAM_CLONE",
+  "git": {
+   "head": null,
+   "url": null,
+   "branch": "master",
+   "committed_at": "2026-09-29T11:06:59+04:00",
+   "sha_unverified": true,
+   "note": "prior contamination (OPENMRS parent SHA + embedded token) removed; resolve via GitHub API before quoting"
+  }
+ },
+ "metrics": {
+  "files_total": 282,
+  "source_files_scanned": 215,
+  "lines_of_code": 61388,
+  "languages": {
+   ".js": 214,
+   ".json": 20,
+   ".html": 20,
+   ".md": 7,
+   ".svg": 5,
+   ".png": 4,
+   "(none)": 3,
+   ".txt": 2,
+   ".cff": 1,
+   ".css": 1,
+   ".tgz": 1,
+   ".crt": 1,
+   ".key": 1,
+   ".pfx": 1,
+   ".sh": 1
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 84,
+  "unique": 84,
+  "by_ecosystem": {
+   "npm": 84
+  },
+  "list": [
+   {
+    "ecosystem": "npm",
+    "name": "acorn",
+    "version": "8.18.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "acorn-walk",
+    "version": "8.3.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ajv",
+    "version": "8.20.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "async-mutex",
+    "version": "0.5.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "basic-auth",
+    "version": "2.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "bcryptjs",
+    "version": "3.0.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "body-parser",
+    "version": "1.20.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chalk",
+    "version": "^4.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cheerio",
+    "version": "1.0.0-rc.10",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "clone",
+    "version": "2.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "content-type",
+    "version": "1.0.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cookie",
+    "version": "0.7.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cookie-parser",
+    "version": "1.4.7",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cors",
+    "version": "2.8.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cronosjs",
+    "version": "1.7.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "denque",
+    "version": "2.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "express",
+    "version": "4.22.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "express-session",
+    "version": "1.19.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "form-data",
+    "version": "4.0.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fs-extra",
+    "version": "11.4.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "got",
+    "version": "14.6.6",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "hash-sum",
+    "version": "2.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "hpagent",
+    "version": "1.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "https-proxy-agent",
+    "version": "5.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next",
+    "version": "25.8.14",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "iconv-lite",
+    "version": "0.7.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "is-utf8",
+    "version": "0.2.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "js-yaml",
+    "version": "4.3.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "json-stringify-safe",
+    "version": "5.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "lodash.clonedeep",
+    "version": "^4.5.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "media-typer",
+    "version": "1.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "memorystore",
+    "version": "1.6.8",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mime",
+    "version": "3.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "moment",
+    "version": "2.30.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "moment-timezone",
+    "version": "0.5.48",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mqtt",
+    "version": "5.15.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "multer",
+    "version": "2.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mustache",
+    "version": "4.2.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-red-admin",
+    "version": "^4.1.7",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-watch",
+    "version": "0.7.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nopt",
+    "version": "5.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "npm",
+    "version": "11.19.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "oauth2orize",
+    "version": "1.12.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "on-headers",
+    "version": "1.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "passport",
+    "version": "0.7.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "passport-http-bearer",
+    "version": "1.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "passport-oauth2-client-password",
+    "version": "0.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "raw-body",
+    "version": "3.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "rfdc",
+    "version": "1.4.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "semver",
+    "version": "7.8.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tar",
+    "version": "7.5.22",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "tough-cookie",
+    "version": "5.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "uglify-js",
+    "version": "3.19.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "validate-npm-package-name",
+    "version": "7.0.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ws",
+    "version": "7.5.11",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "xml2js",
+    "version": "0.6.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "archiver",
+    "version": "^7.0.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "chokidar",
+    "version": "^4.0.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "dompurify",
+    "version": "3.4.14",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "esbuild",
+    "version": "^0.28.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "eslint",
+    "version": "^9.39.4",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "i18next-http-backend",
+    "version": "1.4.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jquery-i18next",
+    "version": "1.2.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdoc",
+    "version": "^4.0.5",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdoc-nr-template",
+    "version": "github:node-red/jsdoc-nr-template",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jsdoc-to-markdown",
+    "version": "^9.1.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "marked",
+    "version": "4.3.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mermaid",
+    "version": "11.17.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "minami",
+    "version": "1.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "mocha",
+    "version": "11.8.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-red-node-test-helper",
+    "version": "^0.3.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nodemon",
+    "version": "3.1.14",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "npm-run-all2",
+    "version": "^7.0.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "nyc",
+    "version": "^18.0.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "proxy",
+    "version": "^1.0.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sass",
+    "version": "1.62.1",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "should",
+    "version": "13.2.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "sinon",
+    "version": "11.1.2",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "stoppable",
+    "version": "^1.1.0",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "supertest",
+    "version": "6.3.3",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@node-rs/bcrypt",
+    "version": "1.10.7",
+    "source_file": "package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "node-red-node-random",
+    "version": "*",
+    "source_file": "test/resources/subflow/package/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "cowsay2",
+    "version": "*",
+    "source_file": "test/resources/subflow/package/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 176,
+  "files_with_findings": 160,
+  "severity": {
+   "high": 4,
+   "medium": 1,
+   "low": 171
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/nodes/core/network/21-httprequest_spec.js",
+      "line": 1720,
+      "cwe": "CWE-295",
+      "snippet": "n1.receive({payload:\"foo\", rejectUnauthorized: false});"
+     }
+    ]
+   },
+   "A02-CryptographicFailures": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "test/nodes/core/network/21-httprequest_spec.js",
+      "line": 355,
+      "cwe": "CWE-327",
+      "snippet": "handleDigestResponse(req, res, \"MD5\", false, false);"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/unit/@node-red/runtime/lib/nodes/index_spec.js",
+      "line": 46,
+      "cwe": "CWE-78",
+      "snippet": "var testCredentials = {\"tab1\":{\"b\":1, \"c\":\"2\", \"d\":\"$(foo)\"}};"
+     },
+     {
+      "severity": "high",
+      "file": "test/nodes/core/network/21-httprequest_spec.js",
+      "line": 254,
+      "cwe": "CWE-95",
+      "snippet": "var match = re.exec(authHeader);"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 11,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/unit/_spec.js",
+      "line": 24,
+      "cwe": "CWE-",
+      "snippet": "* TODO: Increase the scope of this check"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/node-red/lib/red_spec.js",
+      "line": 65,
+      "cwe": "CWE-",
+      "snippet": "// TODO: unstubable accessors - need to make this testable"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/git/authServer_spec.js",
+      "line": 68,
+      "cwe": "CWE-",
+      "snippet": "// TODO:"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/flows/Flow_spec.js",
+      "line": 319,
+      "cwe": "CWE-",
+      "snippet": "//TODO: use update to pass in new wiring and verify the change"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/api/diagnostics_spec.js",
+      "line": 30,
+      "cwe": "CWE-",
+      "snippet": "//apiMaxLength: xxx, deliberately left blank. Should arrive in report as \"UNSET\""
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/api/flows_spec.js",
+      "line": 256,
+      "cwe": "CWE-",
+      "snippet": "// TODO: quirk of internal api - uses .code for .status"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/editor-api/lib/admin/flows_spec.js",
+      "line": 91,
+      "cwe": "CWE-",
+      "snippet": ".set('Node-RED-API-Version','xxx')"
+     },
+     {
+      "severity": "low",
+      "file": "test/nodes/core/network/21-httprequest_spec.js",
+      "line": 1693,
+      "cwe": "CWE-",
+      "snippet": "// Pass in dynamicHeaderName & dynamicHeaderValue properties to set the Flow UI `msg.xxx` header entries"
+     },
+     {
+      "severity": "low",
+      "file": "test/nodes/core/network/lib/proxyHelper_spec.js",
+      "line": 556,
+      "cwe": "CWE-",
+      "snippet": "env.NO_PROXY = 'xxx:21,xxx:70,xxx:80,xxx:443,xxx:1880,xxx:8880';"
+     },
+     {
+      "severity": "low",
+      "file": "test/nodes/core/function/15-change_spec.js",
+      "line": 1288,
+      "cwe": "CWE-",
+      "snippet": "var flow = [{\"id\":\"changeNode1\",\"type\":\"change\",rules:[{\"t\":\"change\",\"p\":\"payload\",\"from\":\"true\",\"to\":\"xxx\",\"fromt\":\"bool\",\"tot\":\"str\"}],\"name\":\"changeNode\",\"wires\":[[\"helperNode1\""
+     },
+     {
+      "severity": "low",
+      "file": "test/nodes/core/common/60-link_spec.js",
+      "line": 185,
+      "cwe": "CWE-",
+      "snippet": "// //TODO: This test is DISABLED - helper.load() calls callback but none of the nodes are available (issue loading a flow with a subflow)"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/unit/@node-red/runtime/lib/api/diagnostics_spec.js",
+      "line": 42,
+      "cwe": "CWE-798",
+      "snippet": "httpAdminRoot: \"/admin/root/\","
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 159,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/unit/_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/node-red/red_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/node-red/lib/red_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/events_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/exec_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/i18n_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/log_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/util/lib/util_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/settings_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/library_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/sessions_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/settings_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/util_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/defaultFileSet_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/Project_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/ssh/index_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/ssh/keygen_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/git/authCache_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     },
+     {
+      "severity": "low",
+      "file": "test/unit/@node-red/runtime/lib/storage/localfilesystem/projects/git/authServer_spec.js",
+      "line": 2,
+      "cwe": "CWE-319",
+      "snippet": "* Copyright JS Foundation and other contributors, http://js.foundation"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/nodes/core/network/21-httprequest_spec.js",
+      "line": 415,
+      "cwe": "CWE-601",
+      "snippet": "res.redirect(getTestURL('/redirectReturn'));"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 3,
+  "files_with_findings": 3,
+  "severity": {
+   "high": 0,
+   "medium": 3,
+   "low": 0
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "test/editor/specs/scenario/cookbook_dataformats_uispec.js",
+      "line": 97,
+      "cwe": "CWE-1336",
+      "snippet": "templateNode1.setTemplate('<note priority=\"high\">'"
+     },
+     {
+      "severity": "medium",
+      "file": "test/editor/specs/scenario/cookbook_httpendpoints_uispec.js",
+      "line": 53,
+      "cwe": "CWE-1336",
+      "snippet": "templateNode.setTemplate(\"<html>\\n<head></head>\\n<body>\\n<h1>Hello World!</h1>\\n</body>\\n</html>\");"
+     },
+     {
+      "severity": "medium",
+      "file": "test/editor/specs/scenario/cookbook_httprequests_uispec.js",
+      "line": 158,
+      "cwe": "CWE-1336",
+      "snippet": "templateNode.setTemplate('Hello {{req.query.q}}');"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:b5441307-6a73-550c-b659-f7b2ae6f5951",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-06T06:21:46Z",
+   "component": {
+    "type": "application",
+    "name": "NODE_RED",
+    "version": "83b357604d34",
+    "bom-ref": "pkg:generic/anticloud/NODE_RED@83b357604d34",
+    "purl": "pkg:generic/anticloud/NODE_RED@83b357604d34",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": ""
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "acorn",
+    "version": "8.18.0",
+    "purl": "pkg:npm/acorn@8.18.0",
+    "bom-ref": "npm/acorn@8.18.0"
+   },
+   {
+    "type": "library",
+    "name": "acorn-walk",
+    "version": "8.3.5",
+    "purl": "pkg:npm/acorn-walk@8.3.5",
+    "bom-ref": "npm/acorn-walk@8.3.5"
+   },
+   {
+    "type": "library",
+    "name": "ajv",
+    "version": "8.20.0",
+    "purl": "pkg:npm/ajv@8.20.0",
+    "bom-ref": "npm/ajv@8.20.0"
+   },
+   {
+    "type": "library",
+    "name": "async-mutex",
+    "version": "0.5.0",
+    "purl": "pkg:npm/async-mutex@0.5.0",
+    "bom-ref": "npm/async-mutex@0.5.0"
+   },
+   {
+    "type": "library",
+    "name": "basic-auth",
+    "version": "2.0.1",
+    "purl": "pkg:npm/basic-auth@2.0.1",
+    "bom-ref": "npm/basic-auth@2.0.1"
+   },
+   {
+    "type": "library",
+    "name": "bcryptjs",
+    "version": "3.0.3",
+    "purl": "pkg:npm/bcryptjs@3.0.3",
+    "bom-ref": "npm/bcryptjs@3.0.3"
+   },
+   {
+    "type": "library",
+    "name": "body-parser",
+    "version": "1.20.8",
+    "purl": "pkg:npm/body-parser@1.20.8",
+    "bom-ref": "npm/body-parser@1.20.8"
+   },
+   {
+    "type": "library",
+    "name": "chalk",
+    "version": "^4.1.2",
+    "purl": "pkg:npm/chalk@^4.1.2",
+    "bom-ref": "npm/chalk@^4.1.2"
+   },
+   {
+    "type": "library",
+    "name": "cheerio",
+    "version": "1.0.0-rc.10",
+    "purl": "pkg:npm/cheerio@1.0.0-rc.10",
+    "bom-ref": "npm/cheerio@1.0.0-rc.10"
+   },
+   {
+    "type": "library",
+    "name": "clone",
+    "version": "2.1.2",
+    "purl": "pkg:npm/clone@2.1.2",
+    "bom-ref": "npm/clone@2.1.2"
+   },
+   {
+    "type": "library",
+    "name": "content-type",
+    "version": "1.0.5",
+    "purl": "pkg:npm/content-type@1.0.5",
+    "bom-ref": "npm/content-type@1.0.5"
+   },
+   {
+    "type": "library",
+    "name": "cookie",
+    "version": "0.7.2",
+    "purl": "pkg:npm/cookie@0.7.2",
+    "bom-ref": "npm/cookie@0.7.2"
+   },
+   {
+    "type": "library",
+    "name": "cookie-parser",
+    "version": "1.4.7",
+    "purl": "pkg:npm/cookie-parser@1.4.7",
+    "bom-ref": "npm/cookie-parser@1.4.7"
+   },
+   {
+    "type": "library",
+    "name": "cors",
+    "version": "2.8.6",
+    "purl": "pkg:npm/cors@2.8.6",
+    "bom-ref": "npm/cors@2.8.6"
+   },
+   {
+    "type": "library",
+    "name": "cronosjs",
+    "version": "1.7.1",
+    "purl": "pkg:npm/cronosjs@1.7.1",
+    "bom-ref": "npm/cronosjs@1.7.1"
+   },
+   {
+    "type": "library",
+    "name": "denque",
+    "version": "2.1.0",
+    "purl": "pkg:npm/denque@2.1.0",
+    "bom-ref": "npm/denque@2.1.0"
+   },
+   {
+    "type": "library",
+    "name": "express",
+    "version": "4.22.2",
+    "purl": "pkg:npm/express@4.22.2",
+    "bom-ref": "npm/express@4.22.2"
+   },
+   {
+    "type": "library",
+    "name": "express-session",
+    "version": "1.19.0",
+    "purl": "pkg:npm/express-session@1.19.0",
+    "bom-ref": "npm/express-session@1.19.0"
+   },
+   {
+    "type": "library",
+    "name": "form-data",
+    "version": "4.0.6",
+    "purl": "pkg:npm/form-data@4.0.6",
+    "bom-ref": "npm/form-data@4.0.6"
+   },
+   {
+    "type": "library",
+    "name": "fs-extra",
+    "version": "11.4.0",
+    "purl": "pkg:npm/fs-extra@11.4.0",
+    "bom-ref": "npm/fs-extra@11.4.0"
+   },
+   {
+    "type": "library",
+    "name": "got",
+    "version": "14.6.6",
+    "purl": "pkg:npm/got@14.6.6",
+    "bom-ref": "npm/got@14.6.6"
+   },
+   {
+    "type": "library",
+    "name": "hash-sum",
+    "version": "2.0.0",
+    "purl": "pkg:npm/hash-sum@2.0.0",
+    "bom-ref": "npm/hash-sum@2.0.0"
+   },
+   {
+    "type": "library",
+    "name": "hpagent",
+    "version": "1.2.0",
+    "purl": "pkg:npm/hpagent@1.2.0",
+    "bom-ref": "npm/hpagent@1.2.0"
+   },
+   {
+    "type": "library",
+    "name": "https-proxy-agent",
+    "version": "5.0.1",
+    "purl": "pkg:npm/https-proxy-agent@5.0.1",
+    "bom-ref": "npm/https-proxy-agent@5.0.1"
+   },
+   {
+    "type": "library",
+    "name": "i18next",
+    "version": "25.8.14",
+    "purl": "pkg:npm/i18next@25.8.14",
+    "bom-ref": "npm/i18next@25.8.14"
+   },
+   {
+    "type": "library",
+    "name": "iconv-lite",
+    "version": "0.7.3",
+    "purl": "pkg:npm/iconv-lite@0.7.3",
+    "bom-ref": "npm/iconv-lite@0.7.3"
+   },
+   {
+    "type": "library",
+    "name": "is-utf8",
+    "version": "0.2.1",
+    "purl": "pkg:npm/is-utf8@0.2.1",
+    "bom-ref": "npm/is-utf8@0.2.1"
+   },
+   {
+    "type": "library",
+    "name": "js-yaml",
+    "version": "4.3.2",
+    "purl": "pkg:npm/js-yaml@4.3.2",
+    "bom-ref": "npm/js-yaml@4.3.2"
+   },
+   {
+    "type": "library",
+    "name": "json-stringify-safe",
+    "version": "5.0.1",
+    "purl": "pkg:npm/json-stringify-safe@5.0.1",
+    "bom-ref": "npm/json-stringify-safe@5.0.1"
+   },
+   {
+    "type": "library",
+    "name": "lodash.clonedeep",
+    "version": "^4.5.0",
+    "purl": "pkg:npm/lodash.clonedeep@^4.5.0",
+    "bom-ref": "npm/lodash.clonedeep@^4.5.0"
+   },
+   {
+    "type": "library",
+    "name": "media-typer",
+    "version": "1.1.0",
+    "purl": "pkg:npm/media-typer@1.1.0",
+    "bom-ref": "npm/media-typer@1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "memorystore",
+    "version": "1.6.8",
+    "purl": "pkg:npm/memorystore@1.6.8",
+    "bom-ref": "npm/memorystore@1.6.8"
+   },
+   {
+    "type": "library",
+    "name": "mime",
+    "version": "3.0.0",
+    "purl": "pkg:npm/mime@3.0.0",
+    "bom-ref": "npm/mime@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "moment",
+    "version": "2.30.1",
+    "purl": "pkg:npm/moment@2.30.1",
+    "bom-ref": "npm/moment@2.30.1"
+   },
+   {
+    "type": "library",
+    "name": "moment-timezone",
+    "version": "0.5.48",
+    "purl": "pkg:npm/moment-timezone@0.5.48",
+    "bom-ref": "npm/moment-timezone@0.5.48"
+   },
+   {
+    "type": "library",
+    "name": "mqtt",
+    "version": "5.15.2",
+    "purl": "pkg:npm/mqtt@5.15.2",
+    "bom-ref": "npm/mqtt@5.15.2"
+   },
+   {
+    "type": "library",
+    "name": "multer",
+    "version": "2.3.0",
+    "purl": "pkg:npm/multer@2.3.0",
+    "bom-ref": "npm/multer@2.3.0"
+   },
+   {
+    "type": "library",
+    "name": "mustache",
+    "version": "4.2.0",
+    "purl": "pkg:npm/mustache@4.2.0",
+    "bom-ref": "npm/mustache@4.2.0"
+   },
+   {
+    "type": "library",
+    "name": "node-red-admin",
+    "version": "^4.1.7",
+    "purl": "pkg:npm/node-red-admin@^4.1.7",
+    "bom-ref": "npm/node-red-admin@^4.1.7"
+   },
+   {
+    "type": "library",
+    "name": "node-watch",
+    "version": "0.7.4",
+    "purl": "pkg:npm/node-watch@0.7.4",
+    "bom-ref": "npm/node-watch@0.7.4"
+   },
+   {
+    "type": "library",
+    "name": "nopt",
+    "version": "5.0.0",
+    "purl": "pkg:npm/nopt@5.0.0",
+    "bom-ref": "npm/nopt@5.0.0"
+   },
+   {
+    "type": "library",
+    "name": "npm",
+    "version": "11.19.1",
+    "purl": "pkg:npm/npm@11.19.1",
+    "bom-ref": "npm/npm@11.19.1"
+   },
+   {
+    "type": "library",
+    "name": "oauth2orize",
+    "version": "1.12.0",
+    "purl": "pkg:npm/oauth2orize@1.12.0",
+    "bom-ref": "npm/oauth2orize@1.12.0"
+   },
+   {
+    "type": "library",
+    "name": "on-headers",
+    "version": "1.1.0",
+    "purl": "pkg:npm/on-headers@1.1.0",
+    "bom-ref": "npm/on-headers@1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "passport",
+    "version": "0.7.0",
+    "purl": "pkg:npm/passport@0.7.0",
+    "bom-ref": "npm/passport@0.7.0"
+   },
+   {
+    "type": "library",
+    "name": "passport-http-bearer",
+    "version": "1.0.1",
+    "purl": "pkg:npm/passport-http-bearer@1.0.1",
+    "bom-ref": "npm/passport-http-bearer@1.0.1"
+   },
+   {
+    "type": "library",
+    "name": "passport-oauth2-client-password",
+    "version": "0.1.2",
+    "purl": "pkg:npm/passport-oauth2-client-password@0.1.2",
+    "bom-ref": "npm/passport-oauth2-client-password@0.1.2"
+   },
+   {
+    "type": "library",
+    "name": "raw-body",
+    "version": "3.0.0",
+    "purl": "pkg:npm/raw-body@3.0.0",
+    "bom-ref": "npm/raw-body@3.0.0"
+   },
+   {
+    "type": "library",
+    "name": "rfdc",
+    "version": "1.4.1",
+    "purl": "pkg:npm/rfdc@1.4.1",
+    "bom-ref": "npm/rfdc@1.4.1"
+   },
+   {
+    "type": "library",
+    "name": "semver",
+    "version": "7.8.5",
+    "purl": "pkg:npm/semver@7.8.5",
+    "bom-ref": "npm/semver@7.8.5"
+   },
+   {
+    "type": "library",
+    "name": "tar",
+    "version": "7.5.22",
+    "purl": "pkg:npm/tar@7.5.22",
+    "bom-ref": "npm/tar@7.5.22"
+   },
+   {
+    "type": "library",
+    "name": "tough-cookie",
+    "version": "5.1.2",
+    "purl": "pkg:npm/tough-cookie@5.1.2",
+    "bom-ref": "npm/tough-cookie@5.1.2"
+   },
+   {
+    "type": "library",
+    "name": "uglify-js",
+    "version": "3.19.3",
+    "purl": "pkg:npm/uglify-js@3.19.3",
+    "bom-ref": "npm/uglify-js@3.19.3"
+   },
+   {
+    "type": "library",
+    "name": "validate-npm-package-name",
+    "version": "7.0.2",
+    "purl": "pkg:npm/validate-npm-package-name@7.0.2",
+    "bom-ref": "npm/validate-npm-package-name@7.0.2"
+   },
+   {
+    "type": "library",
+    "name": "ws",
+    "version": "7.5.11",
+    "purl": "pkg:npm/ws@7.5.11",
+    "bom-ref": "npm/ws@7.5.11"
+   },
+   {
+    "type": "library",
+    "name": "xml2js",
+    "version": "0.6.2",
+    "purl": "pkg:npm/xml2js@0.6.2",
+    "bom-ref": "npm/xml2js@0.6.2"
+   },
+   {
+    "type": "library",
+    "name": "archiver",
+    "version": "^7.0.1",
+    "purl": "pkg:npm/archiver@^7.0.1",
+    "bom-ref": "npm/archiver@^7.0.1"
+   },
+   {
+    "type": "library",
+    "name": "chokidar",
+    "version": "^4.0.3",
+    "purl": "pkg:npm/chokidar@^4.0.3",
+    "bom-ref": "npm/chokidar@^4.0.3"
+   },
+   {
+    "type": "library",
+    "name": "dompurify",
+    "version": "3.4.14",
+    "purl": "pkg:npm/dompurify@3.4.14",
+    "bom-ref": "npm/dompurify@3.4.14"
+   },
+   {
+    "type": "library",
+    "name": "esbuild",
+    "version": "^0.28.0",
+    "purl": "pkg:npm/esbuild@^0.28.0",
+    "bom-ref": "npm/esbuild@^0.28.0"
+   },
+   {
+    "type": "library",
+    "name": "eslint",
+    "version": "^9.39.4",
+    "purl": "pkg:npm/eslint@^9.39.4",
+    "bom-ref": "npm/eslint@^9.39.4"
+   },
+   {
+    "type": "library",
+    "name": "fast-glob",
+    "version": "^3.3.3",
+    "purl": "pkg:npm/fast-glob@^3.3.3",
+    "bom-ref": "npm/fast-glob@^3.3.3"
+   },
+   {
+    "type": "library",
+    "name": "i18next-http-backend",
+    "version": "1.4.1",
+    "purl": "pkg:npm/i18next-http-backend@1.4.1",
+    "bom-ref": "npm/i18next-http-backend@1.4.1"
+   },
+   {
+    "type": "library",
+    "name": "jquery-i18next",
+    "version": "1.2.1",
+    "purl": "pkg:npm/jquery-i18next@1.2.1",
+    "bom-ref": "npm/jquery-i18next@1.2.1"
+   },
+   {
+    "type": "library",
+    "name": "jsdoc",
+    "version": "^4.0.5",
+    "purl": "pkg:npm/jsdoc@^4.0.5",
+    "bom-ref": "npm/jsdoc@^4.0.5"
+   },
+   {
+    "type": "library",
+    "name": "jsdoc-nr-template",
+    "version": "github:node-red/jsdoc-nr-template",
+    "purl": "pkg:npm/jsdoc-nr-template@github:node-red/jsdoc-nr-template",
+    "bom-ref": "npm/jsdoc-nr-template@github:node-red/jsdoc-nr-template"
+   },
+   {
+    "type": "library",
+    "name": "jsdoc-to-markdown",
+    "version": "^9.1.3",
+    "purl": "pkg:npm/jsdoc-to-markdown@^9.1.3",
+    "bom-ref": "npm/jsdoc-to-markdown@^9.1.3"
+   },
+   {
+    "type": "library",
+    "name": "marked",
+    "version": "4.3.0",
+    "purl": "pkg:npm/marked@4.3.0",
+    "bom-ref": "npm/marked@4.3.0"
+   },
+   {
+    "type": "library",
+    "name": "mermaid",
+    "version": "11.17.2",
+    "purl": "pkg:npm/mermaid@11.17.2",
+    "bom-ref": "npm/mermaid@11.17.2"
+   },
+   {
+    "type": "library",
+    "name": "minami",
+    "version": "1.2.3",
+    "purl": "pkg:npm/minami@1.2.3",
+    "bom-ref": "npm/minami@1.2.3"
+   },
+   {
+    "type": "library",
+    "name": "mocha",
+    "version": "11.8.0",
+    "purl": "pkg:npm/mocha@11.8.0",
+    "bom-ref": "npm/mocha@11.8.0"
+   },
+   {
+    "type": "library",
+    "name": "node-red-node-test-helper",
+    "version": "^0.3.3",
+    "purl": "pkg:npm/node-red-node-test-helper@^0.3.3",
+    "bom-ref": "npm/node-red-node-test-helper@^0.3.3"
+   },
+   {
+    "type": "library",
+    "name": "nodemon",
+    "version": "3.1.14",
+    "purl": "pkg:npm/nodemon@3.1.14",
+    "bom-ref": "npm/nodemon@3.1.14"
+   },
+   {
+    "type": "library",
+    "name": "npm-run-all2",
+    "version": "^7.0.2",
+    "purl": "pkg:npm/npm-run-all2@^7.0.2",
+    "bom-ref": "npm/npm-run-all2@^7.0.2"
+   },
+   {
+    "type": "library",
+    "name": "nyc",
+    "version": "^18.0.0",
+    "purl": "pkg:npm/nyc@^18.0.0",
+    "bom-ref": "npm/nyc@^18.0.0"
+   },
+   {
+    "type": "library",
+    "name": "proxy",
+    "version": "^1.0.2",
+    "purl": "pkg:npm/proxy@^1.0.2",
+    "bom-ref": "npm/proxy@^1.0.2"
+   },
+   {
+    "type": "library",
+    "name": "sass",
+    "version": "1.62.1",
+    "purl": "pkg:npm/sass@1.62.1",
+    "bom-ref": "npm/sass@1.62.1"
+   },
+   {
+    "type": "library",
+    "name": "should",
+    "version": "13.2.3",
+    "purl": "pkg:npm/should@13.2.3",
+    "bom-ref": "npm/should@13.2.3"
+   },
+   {
+    "type": "library",
+    "name": "sinon",
+    "version": "11.1.2",
+    "purl": "pkg:npm/sinon@11.1.2",
+    "bom-ref": "npm/sinon@11.1.2"
+   },
+   {
+    "type": "library",
+    "name": "stoppable",
+    "version": "^1.1.0",
+    "purl": "pkg:npm/stoppable@^1.1.0",
+    "bom-ref": "npm/stoppable@^1.1.0"
+   },
+   {
+    "type": "library",
+    "name": "supertest",
+    "version": "6.3.3",
+    "purl": "pkg:npm/supertest@6.3.3",
+    "bom-ref": "npm/supertest@6.3.3"
+   },
+   {
+    "type": "library",
+    "name": "@node-rs/bcrypt",
+    "version": "1.10.7",
+    "purl": "pkg:npm/@node-rs/bcrypt@1.10.7",
+    "bom-ref": "npm/@node-rs/bcrypt@1.10.7"
+   },
+   {
+    "type": "library",
+    "name": "node-red-node-random",
+    "version": "*",
+    "purl": "pkg:npm/node-red-node-random@*",
+    "bom-ref": "npm/node-red-node-random@*"
+   },
+   {
+    "type": "library",
+    "name": "cowsay2",
+    "version": "*",
+    "purl": "pkg:npm/cowsay2@*",
+    "bom-ref": "npm/cowsay2@*"
+   }
+  ]
+ },
+ "elapsed_seconds": 34.17
+}
